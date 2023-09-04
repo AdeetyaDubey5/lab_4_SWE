@@ -11,6 +11,7 @@ def print_employee_data(data):
         print("{:<12} {:<10} {:<4} {:<8}".format(emp["Employee ID"], emp["Name"], emp["Age"], emp["Salary"]))
 def sort_employee_data(data, key):
     return sorted(data, key=lambda x: x[key])
+    
 while True:
     print("\nOptions:")
     print("1. Sort by Age")
